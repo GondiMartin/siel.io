@@ -1,0 +1,87 @@
+body{
+    background-color: #f9e4c9;
+    margin: 0px;
+    color: #522d27;
+}
+
+#banner{
+    height: 400px;
+    background-image: url('../img/sieles.jpg');
+    background-position-x: center;
+    background-position-y: bottom;
+    border-bottom: 10px solid #70423a;
+}
+
+#tartalom{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2{
+    text-transform: uppercase;
+    word-spacing: 1px;
+    background-color: #cab192;
+    padding-left: 15px;
+}
+
+p, li{
+    line-height: 25px;
+}
+
+table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #70423a;
+    border-collapse: collapse;
+}
+
+tr, td, th{
+    padding: 10px;
+}
+
+th{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+}
+
+.elsoOszlop{
+    font-weight: bold;
+}
+
+.paratlanSor{
+    background-color: #cab192;
+}
+
+#utolsoBekezdes{
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+#kepSieles2{
+    float: right;
+    box-shadow: 2px 2px 10px #70423a;
+}
+
+.hopehely{
+    width: 100px;
+    box-shadow: none;
+    margin-top: 20px;;
+    border: none;
+    left: -850px;
+    position: relative;
+    float: right;
+}
+
+a{
+    color: #1f6588;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #70423a;
+    text-decoration: underline;
+}
